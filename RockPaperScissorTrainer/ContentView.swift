@@ -59,7 +59,7 @@ struct ContentView: View {
                 Spacer()
                 Text("Score: \(score)")
                 if let latestScore = latestCorrect {
-                    Text("Latest attempt was \(latestScore ? "correct" : "Wrong").")
+                    Text("Latest attempt was \(latestScore ? "correct" : "wrong").")
                         .font(.footnote)
                 } else {
                     Text("")
